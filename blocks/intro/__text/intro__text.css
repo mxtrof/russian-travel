@@ -1,0 +1,16 @@
+.intro__text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 163%;
+    color: #FFFFFF;
+    margin: 0 0 33px;
+    padding: 0;
+}
+
+@media screen and (max-width: 767px) {
+    .intro__text {
+        margin: 0 0 34px;
+        /* но предположу, что это ошибка, д.б. 33рх*/
+    } 
+}
