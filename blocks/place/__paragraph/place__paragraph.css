@@ -8,10 +8,13 @@
     max-width: 484px;
 }
 
+.place__paragraph:last-child {
+    margin: 0;
+}
+
 @media screen and (max-width: 1279px) {
     .place__paragraph {
         max-width: 456px;
-        margin: 0 0 27px;
     }
 }
 
